@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pages .carousel-item img{
+    height: 39rem;
+}
+.cards{
+    padding-top: 50px;
+    gap: 50px;
+}
+.cards .card img{
+    height: 15rem;
+}
+::-webkit-scrollbar {
+    width: .3rem;
+}
+
+::-webkit-scrollbar-track {
+    background: rgb(189, 189, 189);
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(1, 12, 3);
+
+}
+
+@media screen and (max-width:800px) {
+     .cards{display: flex;
+        flex-wrap: wrap;
+
+    }
+    
+}
